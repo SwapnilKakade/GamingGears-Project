@@ -1,0 +1,44 @@
+/* Styles for the Delivery Address page */
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+ 
+  .address-form {
+  
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 'none';
+    background-color: white;
+    width: 400px; /* Adjust this width as needed */
+    margin: 0 auto; /* Center the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(auto, auto); /* Ensure auto-sizing rows */
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Expand input fields to fill the grid cells */
+  }
+  
+  .deliver-button {
+    grid-column: span 2; /* Make the button span both columns */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .deliver-button:hover {
+    background-color: #0056b3;
+  }
+  

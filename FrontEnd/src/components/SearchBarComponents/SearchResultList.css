@@ -1,0 +1,25 @@
+.results-list {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px #ddd;
+    border-radius: 10px;
+    /* margin-top: 1rem; */
+    margin-top: 50px;
+    max-height: 300px;
+    overflow-y: auto;
+    position: absolute; /* Set position to fixed */
+  z-index: 999; /* Adjust the z-index to appear above other content */
+  /* You may also want to set the left and top properties to position it */
+  left: 0;
+  top: 0;
+  }
+  
+  .search-result {
+    padding: 10px 20px;
+  }
+  
+  .search-result:hover {
+    background-color: #efefef;
+  }

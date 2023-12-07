@@ -1,0 +1,10 @@
+/* CardStyles.css */
+
+.card-hover {
+    transition: box-shadow 0.3s, background-color 0.3s; /* Add smooth transition effects */
+  }
+  
+  .card-hover:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adjust the box shadow as needed */
+    background-color: #e0e0e0; /* Change to the desired hover background color (darker) */
+  }

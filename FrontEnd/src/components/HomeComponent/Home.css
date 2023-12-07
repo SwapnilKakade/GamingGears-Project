@@ -1,0 +1,52 @@
+/* CSS for different character colors */
+.rainbow-text {
+    display: inline-block;
+    font-size: 36px; /* Adjust the font size as needed */
+  }
+  
+  .char1 {
+    color: red;
+  }
+  
+  .char2 {
+    color: blue;
+  }
+  
+  .char3 {
+    color: green;
+  }
+  
+  .char4 {
+    color: yellow;
+  }
+  
+  .char5 {
+    color: orange;
+  }
+  
+  .char6 {
+    color: purple;
+  }
+  
+  .char7 {
+    color: cyan;
+  }
+  
+  .char8 {
+    color: magenta;
+  }
+  
+  .char9 {
+    color: teal;
+  }
+  
+  .char10 {
+    color: pink;
+  }
+  
+  .char11 {
+    color: brown;
+  }
+  
+  /* Define more color classes for additional characters */
+  

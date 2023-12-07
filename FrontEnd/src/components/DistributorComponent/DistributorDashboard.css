@@ -1,0 +1,101 @@
+/* DistributorDashboard.css */
+
+/* Dashboard container styles */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Distributor Profile card styles */
+  .profile-card {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Navigation links styles */
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 1.6rem;
+  }
+  
+  .nav-link {
+  
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+
+  }
+  
+  .nav-link:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Active link styles */
+  .active {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  /* Dashboard header styles */
+  .dashboard-header {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2rem;
+  }
+  
+  /* Sales Report card styles */
+  .sales-report-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .sales-report-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Latest Orders card styles */
+  .latest-orders-card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .latest-orders-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
